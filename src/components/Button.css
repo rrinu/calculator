@@ -1,0 +1,12 @@
+.Button{
+    height: 70px;
+    width:125px;
+    background-color: lightgreen;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Button:hover{
+    background-color: rgb(195, 245, 195);
+}

@@ -1,0 +1,22 @@
+.display{
+    margin-top:4rem;
+    background-color: lightgrey;
+    color: black;
+    height:7rem;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-size: larger;
+    
+}
+
+p{
+    font-size: larger;
+    font-weight:400;
+}
+
+p.result{
+    font-size: larger;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
