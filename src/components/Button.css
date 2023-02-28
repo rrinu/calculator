@@ -1,12 +1,31 @@
 .Button{
     height: 70px;
     width:125px;
-    background-color: lightgreen;
+    background-color: darkcyan;
     font-weight: 500;
+    color:white;
     font-size: 20px;
     cursor: pointer;
 }
 
+.Button-backspace{
+    height: 70px;
+    width:125px;
+    background-color: darkcyan;
+    font-weight: 500;
+    color:white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
 .Button:hover{
-    background-color: rgb(195, 245, 195);
+    background-color: rgb(74, 106, 106);
+}
+
+.Button-backspace:hover{
+    background-color: rgb(74, 106, 106);
+}
+
+FaBackspace{
+    border-bottom: 10px;
 }

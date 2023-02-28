@@ -1,5 +1,6 @@
 import React from "react";
 import './Button.css';
+import { FaBackspace } from "react-icons/fa";
 
 export class Button extends React.Component{
     constructor(props){
@@ -14,7 +15,7 @@ export class Button extends React.Component{
         return(
             <div className="Buttons">
                 <button onClick={this.handleClick} className="Button" name='AC' type="submit" value="C">AC</button>
-                <button onClick={this.handleClick} className="Button" name='X' type="submit" value="X">X</button>
+                <button onClick={this.handleClick} className="Button-backspace" name='X' type="submit" value="X"><FaBackspace /></button>
                 <button onClick={this.handleClick} className="Button" name='(' type="submit" value="(">(</button>
                 <button onClick={this.handleClick} className="Button" name=')' type="submit" value=")">)</button>
 
@@ -31,7 +32,7 @@ export class Button extends React.Component{
                 <button onClick={this.handleClick} className="Button" name='3' type="submit" value="3">3</button>
                 <button onClick={this.handleClick} className="Button" name='2' type="submit" value="2">2</button>
                 <button onClick={this.handleClick} className="Button" name='1' type="submit" value="1">1</button>
-                <button onClick={this.handleClick} className="Button" name='*' type="submit" value="*">*</button>
+                <button onClick={this.handleClick} className="Button" name='*' type="submit" value="*">x</button>
 
                 <button onClick={this.handleClick} className="Button" name='.' type="submit" value=".">.</button>
                 <button onClick={this.handleClick} className="Button" name='0' type="submit" value="0">0</button>

@@ -10,13 +10,15 @@
     
 }
 
-p{
+p.input{
     font-size: larger;
     font-weight:400;
+    text-align: end;
 }
 
 p.result{
-    font-size: larger;
+    font-size:130%;
     padding-bottom: 15px;
     font-weight: 600;
+    text-align: end;
 }
